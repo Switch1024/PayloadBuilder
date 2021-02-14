@@ -12,7 +12,7 @@ while True:
 	try:
 		if platform.platform().startswith('Windows'):
 			os.system('cls')
-      os.system('title \" Payload Builder | By 0x00 \"')
+			os.system('title \" Payload Builder | By 0x00 \"')
 		else:
 			os.system('clear')
 
